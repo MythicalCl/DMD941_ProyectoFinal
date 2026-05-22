@@ -1,0 +1,16 @@
+# Archivos temporales de Windows
+Thumbs.db
+Desktop.ini
+
+# Temporales de Office
+~$*.docx
+~$*.xlsx
+*.tmp
+
+# Archivos generados por SQL Server
+*.ldf
+*.mdf
+
+# Carpetas temporales
+temp/
+tmp/
