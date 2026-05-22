@@ -223,23 +223,6 @@ SELECT 'fact_sales', COUNT(*) FROM dbo.fact_sales;
 
 ---
 
-## Capturas recomendadas
-
-Para documentar la restauración, tomar capturas de:
-
-1. Ventana **Restore Database** con el archivo `.bak` seleccionado.
-2. Mensaje de restauración exitosa.
-3. Base `DMD941_Superstore_DW` visible en SSMS.
-4. Consulta mostrando las tablas restauradas.
-5. Consulta mostrando conteo de registros.
-
----
-
-## Texto sugerido para el documento
-
-> Para facilitar la colaboración del equipo, se generó un respaldo completo de la base de datos `DMD941_Superstore_DW` en formato `.bak`. Este respaldo permite que los integrantes puedan restaurar el Data Warehouse directamente en SQL Server Management Studio sin ejecutar manualmente todos los scripts de creación, carga y transformación. Después de la restauración, se validó la existencia de las tablas principales y el conteo de registros para confirmar que la base fue restaurada correctamente.
-
----
 
 ## Nota importante
 
