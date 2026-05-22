@@ -1,0 +1,35 @@
+SELECT TOP 20
+    f.sales_key,
+    f.order_id,
+    od.full_date AS order_date,
+    sd.full_date AS ship_date,
+    c.customer_name,
+    c.segment,
+    p.product_name,
+    p.category,
+    l.country,
+    l.region,
+    sm.ship_mode,
+    pr.order_priority,
+    f.sales,
+    f.quantity,
+    f.profit,
+    f.shipping_cost,
+    f.delivery_days,
+    f.profit_margin
+FROM dbo.fact_sales f
+INNER JOIN dbo.dim_customer c 
+    ON c.customer_key = f.customer_key
+INNER JOIN dbo.dim_product p 
+    ON p.product_key = f.product_key
+INNER JOIN dbo.dim_location l 
+    ON l.location_key = f.location_key
+INNER JOIN dbo.dim_shipmode sm 
+    ON sm.shipmode_key = f.shipmode_key
+INNER JOIN dbo.dim_priority pr 
+    ON pr.priority_key = f.priority_key
+INNER JOIN dbo.dim_date od 
+    ON od.date_key = f.order_date_key
+INNER JOIN dbo.dim_date sd 
+    ON sd.date_key = f.ship_date_key
+ORDER BY f.sales_key;
