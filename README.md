@@ -330,33 +330,19 @@ Se ejecutaron consultas con `JOIN` entre `fact_sales` y sus dimensiones para con
 
 Los KPIs se construyen a partir de la tabla de hechos y sus dimensiones.
 
-### KPIs de ventas
+- Ventas Totales (Total Sales): representa el monto total de ventas realizadas.
+- Ganancia Total (Total Profit): permite evaluar la rentabilidad del negocio.
+- Cantidad Vendida (Quantity): muestra el volumen de productos vendidos.
+- Ticket Promedio (Average Ticket): indica el valor promedio por orden.
+- Margen de Ganancia (%): mide el rendimiento financiero en términos porcentuales.
 
-- Ventas totales
-- Cantidad vendida
-- Ventas por año
-- Ventas por región
-- Ventas por categoría
-- Top productos por ventas
-- Top clientes por ventas
-- Crecimiento mensual de ventas
+Además, se realizaron análisis más detallados utilizando dimensiones:
 
-### KPIs financieros
+Ventas por mes y año, para identificar tendencias en el tiempo.
+Ventas por región, para comparar el desempeño geográfico.
+Ventas por categoría, para identificar los productos más vendidos.
+Top clientes, para reconocer los clientes con mayor contribución.
 
-- Utilidad total
-- Margen de utilidad
-- Utilidad por categoría
-- Utilidad por región
-- Productos con pérdida
-- Costo total de envío
-- Relación entre utilidad y costo de envío
-
-### KPIs logísticos
-
-- Días promedio de entrega
-- Costo de envío por modo de envío
-- Ventas por prioridad de orden
-- Días de entrega por región
 
 ---
 
