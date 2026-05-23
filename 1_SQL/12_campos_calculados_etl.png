@@ -1,9 +1,0 @@
-SELECT TOP 20
-    order_id,
-    sales,
-    profit,
-    profit_margin,
-    delivery_days
-FROM dbo.fact_sales
-WHERE sales IS NOT NULL
-ORDER BY sales_key;
