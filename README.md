@@ -34,7 +34,7 @@ La solución contempla:
 | 1 | Carlos Ernesto Contreras Bonilla CB121033 | Técnico 1 - Base de datos, Data Warehouse y ETL |
 | 2 | Alisson Rebeca Ramós Sibrian RS21346  | Técnico 2 - KPIs, Cubo OLAP y Power BI |
 | 3 | Marlene Noemy López de Servando LQ221481 | Teórico 1 - Problema, datos y diseño del DW |
-| 4 | Kevin Oswaldo Alvarado Rosales | Teórico 2 - KPIs, herramientas, cronograma, conclusiones y defensa |
+| 4 | Kevin Oswaldo Alvarado Rosales AR202118| Teórico 2 - KPIs, herramientas, cronograma, conclusiones y defensa |
 
 ---
 
